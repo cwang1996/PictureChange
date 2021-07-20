@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 *, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+    font-family: 'Poppins';
 }
 
 :root {
@@ -29,6 +36,14 @@
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
+}
+
+.title {
+    font-size: 30px;
+}
+
+.word-color {
+    color: var(--base);
 }
 
 .title, .controls, .image-container {
